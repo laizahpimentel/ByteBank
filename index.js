@@ -29,4 +29,3 @@ cliente3.agencia =  1001;
 cliente3.saldo = 0;
 
 console.log(cliente1, cliente2,cliente3);
-
