@@ -7,7 +7,7 @@ class Cliente {
 
 class ContaCorrente{
     agencia;
-    saldo;
+    saldo = 0
 
     sacar(valor){
         if(this.saldo  >= valor){
@@ -39,7 +39,7 @@ cliente2.cpf = 8882223309;
 
 
 const contaCorrenteRicardo = new  ContaCorrente();
-contaCorrenteRicardo.saldo =  10000; //falando sobre salado/priavado
+contaCorrenteRicardo.saldo =  10000; 
 contaCorrenteRicardo.agencia = 1001;
 
 contaCorrenteRicardo.depositar (100);
