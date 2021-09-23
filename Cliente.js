@@ -1,4 +1,5 @@
-class Cliente {
+ export class Cliente {
+    
     nome;
     cpf;
     
