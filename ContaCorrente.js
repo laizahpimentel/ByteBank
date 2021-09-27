@@ -16,12 +16,16 @@
     }
 
     get cliente (){
-        return this._cliente;
+        return this._cliente; 
     }
 
 
  
     _saldo = 0;
+
+    get saldo (){
+        return this._saldo;
+    }
 
 
     sacar(valor){
